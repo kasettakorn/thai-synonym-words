@@ -1,0 +1,22 @@
+@font-face {
+	font-family: "Kanit";
+	src: url("./fonts/Kanit/Kanit-Light.ttf");
+}
+@font-face {
+	font-family: "TH SarabunPSK";
+	src: url("./fonts/TH-Sarabun-PSK/THSarabun.ttf");
+}
+* {
+	font-family: 'Kanit', sans-serif;
+}
+.logo {
+	float: left;
+	width: 60px;
+	height: 51px;
+	margin: 5px 24px 16px 0;
+	background-image: url('./assets/logo.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-size: 60px 51px;
+	border-radius: 10px;
+}

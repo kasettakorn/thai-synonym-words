@@ -1,0 +1,19 @@
+tr > th, tr > td:last-child {
+    text-align: center;
+}
+div.centered table{
+    margin: 0 auto;
+    /* font-size: 16pt; */
+}
+.overview-table {
+    max-width: 65vw; 
+}
+.overview-table > thead > tr > th:first-child {
+    width: 5%;
+}
+.overview-table > thead > tr > th:nth-child(2) {
+    width: 35%;
+}
+.overview-table > thead > tr > th:last-child {
+    width: 10%;
+}
